@@ -5,7 +5,8 @@ const LAYOUT_FOLDER = './_includes/layouts';
 export const config = {
     dir: {
         input: "_pages",
-        includes: "../_includes"
+        includes: "../_includes",
+        output: "docs"
     }
 };
 
